@@ -1,0 +1,1126 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 宋体, arial; }
+
+header {
+  width: 100%; }
+  header img {
+    width: 100%; }
+
+nav {
+  width: 100%;
+  background: #333;
+  color: #fff; }
+  nav .nav-list {
+    width: 1226px;
+    margin: 0 auto;
+    font-size: 12px; }
+    nav .nav-list .nav-ul1 {
+      float: left;
+      color: #bfbfbf;
+      padding: 0.8rem 0; }
+      nav .nav-list .nav-ul1 li {
+        float: left;
+        margin-left: 2px;
+        padding: 0 0.3rem;
+        border-right: 1px solid #444; }
+        nav .nav-list .nav-ul1 li a {
+          text-decoration: none;
+          color: #ccc; }
+      nav .nav-list .nav-ul1 li:last-child {
+        border: 0; }
+      nav .nav-list .nav-ul1 li:after {
+        display: block;
+        content: "";
+        clear: both; }
+    nav .nav-list .nav-ul2 {
+      float: right;
+      color: #bfbfbf; }
+      nav .nav-list .nav-ul2 li {
+        float: left;
+        margin-left: 5px;
+        border-right: 1px solid #444;
+        padding: 0 0.5rem;
+        color: #ccc; }
+        nav .nav-list .nav-ul2 li div, nav .nav-list .nav-ul2 li p {
+          float: left; }
+        nav .nav-list .nav-ul2 li a {
+          text-decoration: none;
+          color: #ccc; }
+      nav .nav-list .nav-ul2 .lixio {
+        margin: 0.7rem 0; }
+      nav .nav-list .nav-ul2 .zxc {
+        border: 0; }
+      nav .nav-list .nav-ul2 .lis {
+        background: #424242;
+        padding: 0.6rem 0.8rem;
+        border: 0; }
+      nav .nav-list .nav-ul2 li:after {
+        display: block;
+        content: "";
+        clear: both; }
+  nav .nav-list:after {
+    display: block;
+    content: "";
+    clear: both; }
+
+.boss {
+  width: 100%;
+  background: #fff; }
+  .boss .center {
+    width: 1226px;
+    margin: 0 auto; }
+    .boss .center .list-one {
+      width: 100%;
+      padding: 1.4rem 0; }
+      .boss .center .list-one a {
+        text-decoration: none;
+        color: #000; }
+      .boss .center .list-one .one-img, .boss .center .list-one ul {
+        float: left; }
+      .boss .center .list-one .one-search {
+        float: right; }
+      .boss .center .list-one .one-img {
+        width: 14%; }
+        .boss .center .list-one .one-img img:first-child {
+          float: left; }
+        .boss .center .list-one .one-img img:last-child {
+          float: right; }
+      .boss .center .list-one ul {
+        width: 50%;
+        line-height: 60px;
+        color: #333;
+        margin-left: 4.5rem;
+        letter-spacing: 1px; }
+        .boss .center .list-one ul li {
+          float: left;
+          margin: 0 5px; }
+      .boss .center .list-one .one-search {
+        font-size: 13px;
+        color: #666;
+        border: 1px solid #eee; }
+        .boss .center .list-one .one-search div {
+          float: left; }
+        .boss .center .list-one .one-search .search-text {
+          padding: 1.1rem 1.2rem;
+          border-right: 1px solid #eee; }
+          .boss .center .list-one .one-search .search-text span {
+            background: #ccc; }
+        .boss .center .list-one .one-search .search-img {
+          padding: 0.8rem 1rem; }
+    .boss .center .list-one:after {
+      display: block;
+      content: "";
+      clear: both; }
+    .boss .center .banner {
+      width: 100%;
+      position: relative; }
+      .boss .center .banner .swiper-container {
+        width: 100%;
+        position: relative; }
+        .boss .center .banner .swiper-container .swiper-wrapper {
+          width: 100%; }
+          .boss .center .banner .swiper-container .swiper-wrapper .swiper-slide {
+            width: 100%; }
+            .boss .center .banner .swiper-container .swiper-wrapper .swiper-slide img {
+              width: 100%; }
+        .boss .center .banner .swiper-container .swiper-pagination-bullet-active {
+          background: #FF5C01; }
+        .boss .center .banner .swiper-container .swiper-button-prev {
+          position: absolute;
+          left: 240px;
+          color: red; }
+      .boss .center .banner ul {
+        float: left;
+        width: 233px;
+        height: 460px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 17px 15px 17px 0;
+        position: absolute;
+        top: 0;
+        z-index: 10; }
+        .boss .center .banner ul li {
+          color: #eee;
+          padding: 0.3rem 0 1rem 20px;
+          font-size: 14px; }
+          .boss .center .banner ul li a {
+            text-decoration: none;
+            color: #fff; }
+          .boss .center .banner ul li p {
+            float: left;
+            font-family: 宋体, arial; }
+          .boss .center .banner ul li div {
+            float: right;
+            font-family: 宋体, arial;
+            font-size: 20px; }
+        .boss .center .banner ul li:after {
+          display: block;
+          content: "";
+          clear: both; }
+    .boss .center .banner:after {
+      display: block;
+      content: "";
+      clear: both; }
+    .boss .center .list-two {
+      width: 1226px;
+      margin-top: 10px; }
+      .boss .center .list-two .two-left {
+        width: 233px;
+        height: 170px;
+        background: #5F5851;
+        float: left; }
+        .boss .center .list-two .two-left ul {
+          width: 100%;
+          color: #eee;
+          font-size: 12px;
+          text-align: center; }
+          .boss .center .list-two .two-left ul a {
+            text-decoration: none;
+            color: #fff; }
+          .boss .center .list-two .two-left ul li {
+            float: left;
+            text-align: center;
+            padding: 18px 5px;
+            width: 32%;
+            margin: 1px; }
+            .boss .center .list-two .two-left ul li img {
+              width: 32%; }
+            .boss .center .list-two .two-left ul li .img2 {
+              width: 42%; }
+          .boss .center .list-two .two-left ul .li01 {
+            border-bottom: 1px solid #665E58; }
+          .boss .center .list-two .two-left ul .li02 {
+            border-left: 1px solid #665E58;
+            border-right: 1px solid #665E58;
+            border-bottom: 1px solid #665E58; }
+          .boss .center .list-two .two-left ul .li03 {
+            border-bottom: 1px solid #665E58; }
+          .boss .center .list-two .two-left ul .li05 {
+            border-right: 1px solid #665E58;
+            border-left: 1px solid #665E58; }
+        .boss .center .list-two .two-left ul:after {
+          display: block;
+          content: '';
+          clear: both; }
+      .boss .center .list-two .two-right {
+        float: left; }
+        .boss .center .list-two .two-right div {
+          float: left;
+          width: 316px;
+          margin-left: 15px; }
+          .boss .center .list-two .two-right div img {
+            width: 100%; }
+        .boss .center .list-two .two-right div:after {
+          display: block;
+          content: "";
+          clear: both; }
+      .boss .center .list-two .two-right:after {
+        clear: both;
+        content: "";
+        display: block; }
+    .boss .center .list-two:after {
+      display: block;
+      content: "";
+      clear: both; }
+    .boss .center .star {
+      width: 1226px;
+      padding-top: 20px; }
+      .boss .center .star .star-head {
+        padding: 15px 0; }
+        .boss .center .star .star-head p {
+          float: left;
+          font-size: 22px; }
+        .boss .center .star .star-head .btn {
+          float: right;
+          font-weight: bold; }
+          .boss .center .star .star-head .btn a {
+            text-decoration: none;
+            color: #e7e7e7; }
+            .boss .center .star .star-head .btn a .btn-left {
+              float: left;
+              width: 36px;
+              text-align: center;
+              padding: 2px 0;
+              color: #e7e7e7;
+              border: 1px solid #E7E7E7; }
+          .boss .center .star .star-head .btn a {
+            text-decoration: none;
+            color: #c1c1c1; }
+            .boss .center .star .star-head .btn a .btn-rgt {
+              float: left;
+              width: 36px;
+              text-align: center;
+              padding: 2px 0;
+              border-top: 1px solid #E7E7E7;
+              border-right: 1px solid #E7E7E7;
+              border-bottom: 1px solid #E7E7E7; }
+      .boss .center .star .star-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .center .star .star-list {
+        width: 1226px; }
+        .boss .center .star .star-list ul {
+          width: 1226px; }
+          .boss .center .star .star-list ul li {
+            width: 234px;
+            height: 340px;
+            float: left;
+            padding: 30px 0;
+            background: #FAFAFA;
+            text-align: center;
+            margin-left: 14px; }
+            .boss .center .star .star-list ul li a {
+              text-decoration: none; }
+            .boss .center .star .star-list ul li div {
+              width: 100%;
+              height: 100%; }
+              .boss .center .star .star-list ul li div .star-p1 {
+                font-size: 15px;
+                color: #333;
+                margin: 5px 0;
+                margin-top: 15px; }
+              .boss .center .star .star-list ul li div .star-p2 {
+                font-size: 12px;
+                color: #999;
+                margin: 8px 0; }
+              .boss .center .star .star-list ul li div .star-p3 {
+                font-size: 14px;
+                color: red;
+                margin: 18px 0; }
+              .boss .center .star .star-list ul li div .star-img1 {
+                width: 42%;
+                padding: 28px 0; }
+              .boss .center .star .star-list ul li div .star-img2 {
+                width: 35%;
+                padding: 24px 0; }
+              .boss .center .star .star-list ul li div .star-img3 {
+                width: 48%;
+                padding: 26px 0; }
+              .boss .center .star .star-list ul li div .star-img4 {
+                width: 56%;
+                padding: 44px 0; }
+              .boss .center .star .star-list ul li div .star-img5 {
+                width: 42%;
+                padding: 22px 0; }
+          .boss .center .star .star-list ul li:nth-child(1) {
+            border-top: 1px solid #FBA912; }
+          .boss .center .star .star-list ul li:nth-child(2) {
+            border-top: 1px solid #81C14F; }
+          .boss .center .star .star-list ul li:nth-child(3) {
+            border-top: 1px solid #2094EF; }
+          .boss .center .star .star-list ul li:nth-child(4) {
+            border-top: 1px solid #E23B37; }
+          .boss .center .star .star-list ul li:nth-child(5) {
+            border-top: 1px solid #00BDA2; }
+          .boss .center .star .star-list ul .star-li1 {
+            margin: 0; }
+        .boss .center .star .star-list ul:after {
+          display: block;
+          clear: both;
+          content: ""; }
+  .boss .appliance {
+    width: 100%;
+    margin-top: 40px;
+    background: #F5F5F5; }
+    .boss .appliance .list-first {
+      width: 1226px;
+      margin: 0 auto; }
+      .boss .appliance .list-first .first-head {
+        padding-top: 70px;
+        padding-bottom: 15px; }
+        .boss .appliance .list-first .first-head p {
+          float: left;
+          font-size: 22px; }
+        .boss .appliance .list-first .first-head ul {
+          float: right; }
+          .boss .appliance .list-first .first-head ul li {
+            float: left;
+            margin-right: 35px; }
+            .boss .appliance .list-first .first-head ul li a {
+              color: #333;
+              text-decoration: none; }
+            .boss .appliance .list-first .first-head ul li .rea1 {
+              border-bottom: 2px solid red;
+              padding-bottom: 3px;
+              color: red; }
+          .boss .appliance .list-first .first-head ul .rel4 {
+            margin-right: 0;
+            float: left; }
+        .boss .appliance .list-first .first-head ul:after {
+          display: block;
+          content: "";
+          clear: both; }
+      .boss .appliance .list-first .first-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .appliance .list-first .first-list .list-left {
+        float: left;
+        width: 234px; }
+        .boss .appliance .list-first .first-list .list-left img {
+          width: 100%; }
+        .boss .appliance .list-first .first-list .list-left .left-btm {
+          width: 234px;
+          height: 90px;
+          background: #dedede; }
+      .boss .appliance .list-first .first-list .list-rgt {
+        float: left; }
+        .boss .appliance .list-first .first-list .list-rgt .rgt-top li a {
+          text-decoration: none;
+          position: relative;
+          width: 234px;
+          height: 300px;
+          float: left;
+          text-align: center;
+          background: #fff;
+          margin-left: 14px;
+          padding-top: 15px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .top-img1 {
+            padding: 35px 0; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .top-img2 {
+            padding-top: 40px;
+            padding-bottom: 51px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .top-img3 {
+            padding-top: 35px;
+            padding-bottom: 57px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .top-img4 {
+            padding-top: 35px;
+            padding-bottom: 56px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .p1 {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #333; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .p2 {
+            font-size: 12px;
+            color: #b2b2b2;
+            padding: 3px 0; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .p3 {
+            font-size: 14px;
+            color: #ff5320;
+            padding: 10px 0; }
+            .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .p3 span {
+              text-decoration: line-through; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-top li a .post {
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 0;
+            left: 90px;
+            padding: 3px 11px;
+            background: #E53C38; }
+        .boss .appliance .list-first .first-list .list-rgt .rgt-top:after {
+          display: flex;
+          content: "";
+          clear: both; }
+        .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis {
+          width: 234px;
+          height: 300px;
+          float: left;
+          text-align: center;
+          background: #fff;
+          margin-left: 14px;
+          padding-top: 15px;
+          margin-top: 15px;
+          position: relative; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis a {
+            text-decoration: none; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .btm-img1 {
+            padding-top: 19px;
+            padding-bottom: 19px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .btm-img2 {
+            padding-top: 40px;
+            padding-bottom: 30px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .btm-img3 {
+            padding-top: 40px;
+            padding-bottom: 37px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .p1 {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #333; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .p2 {
+            font-size: 12px;
+            color: #b2b2b2;
+            padding: 3px 0; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .p3 {
+            font-size: 14px;
+            color: #ff5320;
+            padding: 10px 0; }
+            .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .p3 span {
+              text-decoration: line-through; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm--lis .post {
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 0;
+            left: 90px;
+            padding: 3px 16px;
+            background: #83C450; }
+        .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss {
+          background: #F5F5F5;
+          width: 234px;
+          height: 300px;
+          float: left;
+          text-align: center;
+          margin-left: 14px;
+          margin-top: 15px; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss .btm-mi {
+            width: 234px;
+            height: 143px;
+            text-align: center;
+            background: #fff;
+            margin-top: 0;
+            padding: 50px 30px; }
+            .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-text {
+              float: left; }
+              .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-text .text1 {
+                color: #333;
+                font-size: 14px; }
+              .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-text .text2 {
+                color: #ff5320;
+                font-size: 14px; }
+            .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-img {
+              float: right; }
+          .boss .appliance .list-first .first-list .list-rgt .rgt-btm .btm-ss .btm-mi:after {
+            display: block;
+            content: "";
+            clear: both; }
+        .boss .appliance .list-first .first-list .list-rgt .rgt-btm:after {
+          display: flex;
+          content: "";
+          clear: both; }
+      .boss .appliance .list-first .first-list:after {
+        display: flex;
+        content: "";
+        clear: both; }
+    .boss .appliance .list-second {
+      width: 1226px;
+      margin: 0 auto; }
+      .boss .appliance .list-second .first-head {
+        padding-top: 20px;
+        padding-bottom: 15px; }
+        .boss .appliance .list-second .first-head p {
+          float: left;
+          font-size: 22px; }
+        .boss .appliance .list-second .first-head ul {
+          float: right; }
+          .boss .appliance .list-second .first-head ul li {
+            float: left;
+            margin-right: 35px; }
+            .boss .appliance .list-second .first-head ul li a {
+              color: #333;
+              text-decoration: none; }
+            .boss .appliance .list-second .first-head ul li .rea1 {
+              border-bottom: 2px solid red;
+              padding-bottom: 3px;
+              color: red; }
+          .boss .appliance .list-second .first-head ul .rel4 {
+            margin-right: 0;
+            float: left; }
+        .boss .appliance .list-second .first-head ul:after {
+          display: block;
+          content: "";
+          clear: both; }
+      .boss .appliance .list-second .first-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .appliance .list-second .first-list .list-left {
+        float: left; }
+        .boss .appliance .list-second .first-list .list-left ul {
+          width: 234px; }
+          .boss .appliance .list-second .first-list .list-left ul li {
+            width: 234px;
+            height: 300px; }
+            .boss .appliance .list-second .first-list .list-left ul li img {
+              width: 99%; }
+      .boss .appliance .list-second .first-list .list-rgt {
+        float: left; }
+        .boss .appliance .list-second .first-list .list-rgt .rgt-top li a {
+          text-decoration: none;
+          width: 234px;
+          height: 300px;
+          float: left;
+          text-align: center;
+          background: #fff;
+          margin-left: 14px;
+          padding-top: 15px;
+          position: relative; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .top-img1 {
+            padding: 35px 0; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .top-img2 {
+            padding-top: 40px;
+            padding-bottom: 51px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .top-img3 {
+            padding-top: 35px;
+            padding-bottom: 57px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .top-img4 {
+            padding-top: 35px;
+            padding-bottom: 56px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .p1 {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #333; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .p2 {
+            font-size: 12px;
+            color: #b2b2b2;
+            padding: 3px 0; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .p3 {
+            font-size: 14px;
+            color: #ff5320;
+            padding: 10px 0; }
+            .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .p3 span {
+              text-decoration: line-through; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-top li a .post {
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 0;
+            left: 90px;
+            padding: 3px 16px;
+            background: #83C450; }
+        .boss .appliance .list-second .first-list .list-rgt .rgt-top:after {
+          display: flex;
+          content: "";
+          clear: both; }
+        .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis {
+          width: 234px;
+          height: 300px;
+          float: left;
+          text-align: center;
+          background: #fff;
+          margin-left: 14px;
+          padding-top: 15px;
+          margin-top: 15px;
+          position: relative; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis a {
+            text-decoration: none; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .btm-img1 {
+            padding-top: 19px;
+            padding-bottom: 19px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .btm-img2 {
+            padding-top: 40px;
+            padding-bottom: 30px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .btm-img3 {
+            padding-top: 40px;
+            padding-bottom: 37px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .p1 {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #333; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .p2 {
+            font-size: 12px;
+            color: #b2b2b2;
+            padding: 3px 0; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .p3 {
+            font-size: 14px;
+            color: #ff5320;
+            padding: 10px 0; }
+            .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .p3 span {
+              text-decoration: line-through; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm--lis .post {
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 0;
+            left: 90px;
+            padding: 3px 16px;
+            background: #83C450; }
+        .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss {
+          background: #F5F5F5;
+          width: 234px;
+          height: 300px;
+          float: left;
+          text-align: center;
+          margin-left: 14px;
+          margin-top: 15px; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss .btm-mi {
+            width: 234px;
+            height: 143px;
+            text-align: center;
+            background: #fff;
+            margin-top: 0;
+            padding: 50px 30px; }
+            .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-text {
+              float: left; }
+              .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-text .text1 {
+                color: #333;
+                font-size: 14px; }
+              .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-text .text2 {
+                color: #ff5320;
+                font-size: 14px; }
+            .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss .btm-mi .mi-img {
+              float: right; }
+          .boss .appliance .list-second .first-list .list-rgt .rgt-btm .btm-ss .btm-mi:after {
+            display: block;
+            content: "";
+            clear: both; }
+        .boss .appliance .list-second .first-list .list-rgt .rgt-btm:after {
+          display: flex;
+          content: "";
+          clear: both; }
+      .boss .appliance .list-second .first-list:after {
+        display: flex;
+        content: "";
+        clear: both; }
+    .boss .appliance .list-third {
+      width: 1226px;
+      padding-top: 20px;
+      margin: 0 auto; }
+      .boss .appliance .list-third .star-head {
+        padding: 15px 0; }
+        .boss .appliance .list-third .star-head p {
+          float: left;
+          font-size: 22px; }
+        .boss .appliance .list-third .star-head .btn {
+          float: right;
+          font-weight: bold; }
+          .boss .appliance .list-third .star-head .btn .btn-left {
+            float: left;
+            width: 36px;
+            text-align: center;
+            padding: 2px 0;
+            color: #e7e7e7;
+            border: 1px solid #E7E7E7; }
+          .boss .appliance .list-third .star-head .btn .btn-rgt {
+            float: left;
+            width: 36px;
+            text-align: center;
+            padding: 2px 0;
+            color: #c1c1c1;
+            border-top: 1px solid #E7E7E7;
+            border-right: 1px solid #E7E7E7;
+            border-bottom: 1px solid #E7E7E7; }
+      .boss .appliance .list-third .star-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .appliance .list-third .star-list {
+        width: 1226px; }
+        .boss .appliance .list-third .star-list ul {
+          width: 1226px; }
+          .boss .appliance .list-third .star-list ul li {
+            width: 234px;
+            height: 340px;
+            float: left;
+            padding: 30px 0;
+            text-align: center;
+            margin-left: 14px;
+            background: #fff; }
+            .boss .appliance .list-third .star-list ul li div {
+              width: 100%;
+              height: 100%; }
+              .boss .appliance .list-third .star-list ul li div a {
+                text-decoration: none; }
+              .boss .appliance .list-third .star-list ul li div .star-p1 {
+                font-size: 15px;
+                color: #333;
+                margin: 5px 0;
+                margin-top: 15px; }
+              .boss .appliance .list-third .star-list ul li div .star-p2 {
+                font-size: 12px;
+                color: #999;
+                margin: 8px 0; }
+              .boss .appliance .list-third .star-list ul li div .star-p3 {
+                font-size: 14px;
+                color: red;
+                margin: 18px 0; }
+              .boss .appliance .list-third .star-list ul li div .star-img1 {
+                width: 62%;
+                padding: 48px 0; }
+              .boss .appliance .list-third .star-list ul li div .star-img2 {
+                width: 45%;
+                padding: 29px 0; }
+              .boss .appliance .list-third .star-list ul li div .star-img3 {
+                width: 48%;
+                padding: 30px 0; }
+              .boss .appliance .list-third .star-list ul li div .star-img4 {
+                width: 40%;
+                padding: 20px 0; }
+              .boss .appliance .list-third .star-list ul li div .star-img5 {
+                width: 42%;
+                padding: 19px 0; }
+          .boss .appliance .list-third .star-list ul .star-li1 {
+            margin: 0; }
+        .boss .appliance .list-third .star-list ul:after {
+          display: block;
+          clear: both;
+          content: ""; }
+    .boss .appliance .list-four {
+      width: 1226px;
+      padding-top: 20px;
+      margin: 0 auto; }
+      .boss .appliance .list-four .star-head {
+        padding: 15px 0; }
+        .boss .appliance .list-four .star-head p {
+          float: left;
+          font-size: 22px; }
+        .boss .appliance .list-four .star-head .btn {
+          float: right;
+          font-weight: bold; }
+          .boss .appliance .list-four .star-head .btn .btn-left {
+            float: left;
+            width: 36px;
+            text-align: center;
+            padding: 2px 0;
+            color: #e7e7e7;
+            border: 1px solid #E7E7E7; }
+          .boss .appliance .list-four .star-head .btn .btn-rgt {
+            float: left;
+            width: 36px;
+            text-align: center;
+            padding: 2px 0;
+            color: #c1c1c1;
+            border-top: 1px solid #E7E7E7;
+            border-right: 1px solid #E7E7E7;
+            border-bottom: 1px solid #E7E7E7; }
+      .boss .appliance .list-four .star-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .appliance .list-four .star-list {
+        width: 1226px; }
+        .boss .appliance .list-four .star-list ul {
+          width: 1226px; }
+          .boss .appliance .list-four .star-list ul li {
+            width: 296px;
+            height: 415px;
+            float: left;
+            text-align: left;
+            margin-left: 14px;
+            background: #fff; }
+            .boss .appliance .list-four .star-list ul li div {
+              width: 100%;
+              height: 100%; }
+              .boss .appliance .list-four .star-list ul li div a {
+                text-decoration: none; }
+              .boss .appliance .list-four .star-list ul li div .star-p1 {
+                font-size: 14px;
+                color: #333;
+                padding: 25px; }
+              .boss .appliance .list-four .star-list ul li div .star-p2 {
+                font-size: 12px;
+                color: #999;
+                padding: 0 25px; }
+              .boss .appliance .list-four .star-list ul li div .star-p3 {
+                font-size: 14px;
+                color: #333;
+                padding: 10px 25px; }
+              .boss .appliance .list-four .star-list ul li div .star-img1 {
+                width: 100%; }
+              .boss .appliance .list-four .star-list ul li div .star-img2 {
+                width: 100%; }
+              .boss .appliance .list-four .star-list ul li div .star-img3 {
+                width: 100%; }
+              .boss .appliance .list-four .star-list ul li div .star-img4 {
+                width: 100%; }
+              .boss .appliance .list-four .star-list ul li div .star-img5 {
+                width: 100%; }
+          .boss .appliance .list-four .star-list ul .star-li1 {
+            margin: 0; }
+        .boss .appliance .list-four .star-list ul:after {
+          display: block;
+          clear: both;
+          content: ""; }
+    .boss .appliance .list-five {
+      width: 1226px;
+      padding-top: 20px;
+      margin: 0 auto; }
+      .boss .appliance .list-five .star-head {
+        padding: 15px 0; }
+        .boss .appliance .list-five .star-head p {
+          font-size: 22px; }
+      .boss .appliance .list-five .star-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .appliance .list-five .star-list {
+        width: 1226px; }
+        .boss .appliance .list-five .star-list ul {
+          width: 1226px; }
+          .boss .appliance .list-five .star-list ul li {
+            width: 294px;
+            height: 415px;
+            float: left;
+            padding: 10px 0;
+            background: #fff;
+            text-align: center;
+            margin-left: 14px; }
+            .boss .appliance .list-five .star-list ul li a {
+              text-decoration: none; }
+            .boss .appliance .list-five .star-list ul li .star-text1 {
+              font-size: 16px;
+              color: #FFAC12;
+              padding: 30px; }
+            .boss .appliance .list-five .star-list ul li .star-text2 {
+              font-size: 18px;
+              color: #333; }
+            .boss .appliance .list-five .star-list ul li .star-text3 {
+              font-size: 12px;
+              color: #bebebe;
+              padding: 8px 60px;
+              line-height: 20px; }
+            .boss .appliance .list-five .star-list ul li .star-text4 {
+              font-size: 14px;
+              color: #333; }
+            .boss .appliance .list-five .star-list ul li img {
+              padding: 10px 0; }
+            .boss .appliance .list-five .star-list ul li .img2 {
+              padding: 22px 0; }
+            .boss .appliance .list-five .star-list ul li .img3 {
+              padding: 35px 0; }
+            .boss .appliance .list-five .star-list ul li .img4 {
+              padding: 35px 0; }
+            .boss .appliance .list-five .star-list ul li div {
+              height: 20px;
+              line-height: 20px; }
+              .boss .appliance .list-five .star-list ul li div span {
+                display: inline-block;
+                width: 6px;
+                height: 6px;
+                background: #999;
+                border-radius: 50%;
+                margin: 0 10px; }
+              .boss .appliance .list-five .star-list ul li div .span01 {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background: #fff;
+                border-radius: 50%;
+                margin: 0 10px;
+                border: 2px solid #FF6700; }
+          .boss .appliance .list-five .star-list ul li:nth-child(1) {
+            border-top: 1px solid #FFAC12; }
+          .boss .appliance .list-five .star-list ul li:nth-child(2) {
+            border-top: 1px solid #83C450; }
+          .boss .appliance .list-five .star-list ul li:nth-child(3) {
+            border-top: 1px solid #E53C38; }
+          .boss .appliance .list-five .star-list ul li:nth-child(4) {
+            border-top: 1px solid #2196F3; }
+          .boss .appliance .list-five .star-list ul .star-li1 {
+            margin: 0; }
+        .boss .appliance .list-five .star-list ul:after {
+          display: block;
+          clear: both;
+          content: ""; }
+    .boss .appliance .list-six {
+      width: 1226px;
+      padding-top: 20px;
+      margin: 0 auto;
+      padding-bottom: 55px; }
+      .boss .appliance .list-six .star-head {
+        padding: 15px 0; }
+        .boss .appliance .list-six .star-head p {
+          float: left;
+          font-size: 22px; }
+        .boss .appliance .list-six .star-head .btn {
+          font-size: 16px;
+          float: right; }
+      .boss .appliance .list-six .star-head:after {
+        display: block;
+        content: "";
+        clear: both; }
+      .boss .appliance .list-six .star-list {
+        width: 1226px; }
+        .boss .appliance .list-six .star-list ul {
+          width: 1226px; }
+          .boss .appliance .list-six .star-list ul li {
+            width: 296px;
+            height: 285px;
+            float: left;
+            text-align: center;
+            margin-left: 14px;
+            background: #fff; }
+            .boss .appliance .list-six .star-list ul li div {
+              width: 100%;
+              height: 100%; }
+              .boss .appliance .list-six .star-list ul li div a {
+                text-decoration: none; }
+              .boss .appliance .list-six .star-list ul li div .star-p1 {
+                font-size: 14px;
+                color: #333;
+                padding: 25px; }
+              .boss .appliance .list-six .star-list ul li div .star-p2 {
+                font-size: 12px;
+                color: #999;
+                padding: 0 25px; }
+              .boss .appliance .list-six .star-list ul li div .star-p3 {
+                font-size: 14px;
+                color: #333;
+                padding: 10px 25px; }
+              .boss .appliance .list-six .star-list ul li div .star-img1 {
+                width: 100%; }
+              .boss .appliance .list-six .star-list ul li div .star-img2 {
+                width: 100%; }
+              .boss .appliance .list-six .star-list ul li div .star-img3 {
+                width: 100%; }
+              .boss .appliance .list-six .star-list ul li div .star-img4 {
+                width: 100%; }
+              .boss .appliance .list-six .star-list ul li div .star-img5 {
+                width: 100%; }
+          .boss .appliance .list-six .star-list ul .star-li1 {
+            margin: 0; }
+        .boss .appliance .list-six .star-list ul:after {
+          display: block;
+          clear: both;
+          content: ""; }
+
+footer {
+  width: 100%; }
+  footer .footer-list {
+    width: 1226px;
+    margin: 0 auto; }
+    footer .footer-list .foot-top {
+      width: 100%; }
+      footer .footer-list .foot-top ul {
+        padding: 25px 0;
+        border-bottom: 1px solid #eeeeee; }
+        footer .footer-list .foot-top ul li {
+          width: 240px;
+          position: relative;
+          float: left;
+          border-right: 1px solid #eee;
+          height: 20px;
+          line-height: 20px; }
+          footer .footer-list .foot-top ul li img {
+            position: absolute;
+            left: 32px;
+            top: -3px; }
+          footer .footer-list .foot-top ul li img:nth-child(3) {
+            position: absolute;
+            left: 32px; }
+          footer .footer-list .foot-top ul li img:nth-child(5) {
+            position: absolute;
+            left: 32px;
+            top: 10px; }
+          footer .footer-list .foot-top ul li span {
+            display: inline-block;
+            text-align: center;
+            width: 100%; }
+        footer .footer-list .foot-top ul li:last-child {
+          border: 0; }
+      footer .footer-list .foot-top ul:after {
+        display: block;
+        content: "";
+        clear: both; }
+    footer .footer-list .foot-btm {
+      width: 100%;
+      margin-top: 30px; }
+      footer .footer-list .foot-btm .btm-left {
+        float: left;
+        width: 900px; }
+        footer .footer-list .foot-btm .btm-left ul {
+          width: 100%; }
+          footer .footer-list .foot-btm .btm-left ul li {
+            float: left;
+            width: 150px; }
+            footer .footer-list .foot-btm .btm-left ul li .left-text1 {
+              color: #666;
+              font-size: 14px;
+              padding: 15px 0; }
+            footer .footer-list .foot-btm .btm-left ul li .left-text2 {
+              color: #888;
+              font-size: 12px;
+              padding: 8px 0; }
+            footer .footer-list .foot-btm .btm-left ul li .left-text3 {
+              color: #888;
+              font-size: 12px;
+              padding: 8px 0; }
+            footer .footer-list .foot-btm .btm-left ul li .left-text4 {
+              color: #888;
+              font-size: 12px;
+              padding: 8px 0; }
+        footer .footer-list .foot-btm .btm-left ul:after {
+          display: block;
+          content: "";
+          clear: both; }
+      footer .footer-list .foot-btm .btm-rgt {
+        width: 267px;
+        float: right;
+        height: 120px;
+        text-align: center;
+        border-left: 1px solid #eee; }
+        footer .footer-list .foot-btm .btm-rgt .rgt-text1 {
+          font-size: 22px;
+          color: #FF6700;
+          margin: 3px 0; }
+        footer .footer-list .foot-btm .btm-rgt .rgt-text2 {
+          font-size: 12px;
+          color: #888;
+          margin: 2px 0; }
+        footer .footer-list .foot-btm .btm-rgt .rgt-text3 {
+          font-size: 12px;
+          color: #888;
+          margin: 2px 0; }
+        footer .footer-list .foot-btm .btm-rgt button {
+          background: #fff;
+          border: 1px solid #FF6700;
+          font-size: 12px;
+          color: #FF6700;
+          padding: 5px 16px;
+          margin: 10px 0; }
+    footer .footer-list .foot-btm:after {
+      display: block;
+      content: "";
+      clear: both; }
+  footer .yejiao {
+    width: 100%;
+    background: #FAFAFA; }
+    footer .yejiao .cent {
+      width: 1226px;
+      margin: 0 auto;
+      padding: 30px 0; }
+      footer .yejiao .cent img {
+        float: left; }
+      footer .yejiao .cent .cent-text {
+        width: 755px;
+        float: left;
+        padding: 0 10px; }
+        footer .yejiao .cent .cent-text ul {
+          width: 755px; }
+          footer .yejiao .cent .cent-text ul li {
+            float: left;
+            padding-left: 4px;
+            padding-right: 4px;
+            font-size: 12px;
+            color: #808080;
+            border-right: 1px solid #ccc; }
+          footer .yejiao .cent .cent-text ul li:last-child {
+            border: 0; }
+        footer .yejiao .cent .cent-text ul:after {
+          display: block;
+          content: "";
+          clear: both; }
+        footer .yejiao .cent .cent-text p {
+          font-size: 12px;
+          color: #ccc;
+          width: 755px;
+          margin: 3px 0; }
+      footer .yejiao .cent .cent-img {
+        width: 390px;
+        float: right; }
+        footer .yejiao .cent .cent-img img {
+          float: left;
+          margin: 0 8px; }
+      footer .yejiao .cent .cent-img:after {
+        display: block;
+        content: "";
+        clear: both; }
+    footer .yejiao .cent:after {
+      display: block;
+      content: "";
+      clear: both; }
+    footer .yejiao .foot-di {
+      text-align: center;
+      font-size: 22px;
+      font-family: 楷体;
+      color: #d6d6d6;
+      padding-bottom: 20px; }
